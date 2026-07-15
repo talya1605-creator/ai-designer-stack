@@ -3,3 +3,11 @@
 .idea/
 .vscode/
 node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# transcribe outputs
+transcript.txt
+*.srt
