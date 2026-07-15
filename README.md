@@ -70,6 +70,23 @@ That's it. Every skill below is now available — just type `/<skill-name>` or d
 
 ---
 
+## 🎙️ Bonus tool — Transcribe reels into scripts (local & free)
+
+Need to grab the script out of a Reel, TikTok, or YouTube video? The
+[`transcribe/`](transcribe/) tool takes a link, downloads the audio, and
+transcribes it **locally** with Whisper — no API key, no cost, nothing sent to
+the cloud.
+
+```bash
+cd transcribe
+pip install -r requirements.txt          # one time (also needs ffmpeg)
+python transcribe.py "https://www.instagram.com/reel/XXXX/" --language he --model medium
+```
+
+See [`transcribe/README.md`](transcribe/README.md) for full instructions (Hebrew).
+
+---
+
 ## Recommended workflow
 
 A real designer flow using these skills, end-to-end:
