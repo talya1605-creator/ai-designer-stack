@@ -83,6 +83,11 @@ pip install -r requirements.txt          # one time (also needs ffmpeg)
 python transcribe.py "https://www.instagram.com/reel/XXXX/" --language he --model medium
 ```
 
+Or just ask Claude Code — this repo ships a **`/transcribe` skill** (in
+[`.claude/skills/transcribe/`](.claude/skills/transcribe/SKILL.md)). With the repo
+open, type `/transcribe` or simply say *"transcribe this reel: <link>"* / *"תמלל לי
+את הסרטון"* and Claude runs the tool for you.
+
 See [`transcribe/README.md`](transcribe/README.md) for full instructions (Hebrew).
 
 ---
